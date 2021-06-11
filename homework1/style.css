@@ -56,7 +56,11 @@ body{
     font-family: 'Noto Sans TC', 'sans-serif','Roboto';
 }
 
-.box1{
+a{
+    text-decoration: none;
+}
+
+.wrap{
     width: 1200px;
     margin: auto;
     padding-top: 40px;
@@ -99,11 +103,10 @@ body{
 .skill{
     background: #415165;
     padding-top: 24px;
-    padding-left: 80px;
-    padding-right: 80px;
     padding-bottom: 52px;
-    margin-bottom: 72px;
-    margin-top: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .skill h2{
     font-size: 32px;
@@ -111,18 +114,15 @@ body{
     text-align: center;
     border-bottom: #FFFFFF solid 1px;
     line-height: 45px;
+    margin-bottom: 20px;
 }
 .skill ul{
     font-size: 24px;
     line-height: 36px;
     border-left: solid #FFFFFF 1px;
-    margin-top: 48px;
     color: #FFFFFF;
-    margin-right: auto;
-    margin-left: auto;
-}
-.skill li{
-    margin-left: 20px;
+    margin: 0 auto;
+    padding-left: 20px;
 }
 .header h3{
     font-size: 24px;
@@ -203,3 +203,6 @@ body{
 .media{
     text-align: center;
 }
+.media a:hover{
+    opacity: 0.5;
+  }
