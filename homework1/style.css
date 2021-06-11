@@ -1,0 +1,205 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+body{
+    font-family: 'Noto Sans TC', 'sans-serif','Roboto';
+}
+
+.box1{
+    width: 1200px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.header h1{
+    font-size: 80px;
+    border-bottom: solid;
+    line-height: 95px;
+}
+.header .photo{
+    width: 324px;
+    height: 324px;
+    padding-top: 60px;
+}
+.header h2{
+    margin-top: 46px;
+    font-size: 32px;
+    border-bottom: solid;
+    margin-bottom: 12px;
+    font-weight: bold;
+    line-height: 48px;
+}
+.header span{
+    font-size: 24px;
+    color: #A00404;
+    font-weight: bold;
+    line-height: 29px;
+}
+.header .exp ul{
+    font-weight: normal;
+}
+.header .exp{
+    margin-bottom: 24px;
+}
+.header li{
+    font-size: 24px;
+    line-height: 36px;
+}
+.skill{
+    background: #415165;
+    padding-top: 24px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 52px;
+    margin-bottom: 72px;
+    margin-top: 72px;
+}
+.skill h2{
+    font-size: 32px;
+    color: #FFFFFF;
+    text-align: center;
+    border-bottom: #FFFFFF solid 1px;
+    line-height: 45px;
+}
+.skill ul{
+    font-size: 24px;
+    line-height: 36px;
+    border-left: solid #FFFFFF 1px;
+    margin-top: 48px;
+    color: #FFFFFF;
+    margin-right: auto;
+    margin-left: auto;
+}
+.skill li{
+    margin-left: 20px;
+}
+.header h3{
+    font-size: 24px;
+}
+.header .logo{
+    width: 89.5px;
+    height: 66.85px;
+} 
+.header .logo1{
+    width: 72px;
+    height: 73px;
+} 
+.header p{
+    font-size: 20px;
+    line-height: 30px;
+    width: 642px;
+}
+.header li{
+    font-weight: bold;
+}
+.header .workexp{
+    border-left: #000000 solid 1px;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+.workexp li{
+    margin-bottom: 32px;
+}
+.workexp p{
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: normal;
+}
+.footer{
+    background: #415165;
+    margin-top: 76px;
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-bottom: 40px;
+}
+.footer a{
+    color: #FFFFFF;
+}
+.footer a:hover{
+    color: rgb(101, 98, 116);
+}
+.footer .media li{
+    display: inline;
+    width: 48px;
+    height: 48px;
+    margin-right: 24px;
+}
+.footer .media ul{
+    text-align: center;
+}
+.footer h2{
+    font-size: 32px;
+    color: #FFFFFF;
+    padding-top: 24px;
+    text-align: center;
+    border-bottom: #FFFFFF solid 1px;
+    line-height: 45px;
+}
+.footer span{
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.footer li{
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.footer ul{
+    margin-top: 40px;
+}
+.media{
+    text-align: center;
+}
